@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/images/login.png">
+</head>
+<body>
+    <div class="outer-box">
+        <div class="inner-box">
+            <header class="signup-header">
+                <h1>SignUp</h1>
+                <p>It just takes 30 seconds.</p>
+            </header>
+            <main class="signup-body">
+                <form action="#" onsubmit="return validateFrom()">
+                    <p>
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" placeholder="Mukund Tiwari" autocomplete="off">
+                        <p id="userError" class="error"></p>
+                    </p>
+                    <p>
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" placeholder="mukundtiwari251103@gmail.com">
+                        <p id="emailError" class="error"></p>
+                    </p>
+                    <p>
+                        <label for="password">Your Password </label>
+                        <input type="password" id="password" placeholder="atleast 8 characters">
+                        <p id="passError" class="error"></p>
+                    </p>
+                    <p>
+                        <label for="submit"></label>
+                        <input type="submit" id="submit" value="Create Account">
+                    </p> 
+                </form>
+            </main>
+
+            <footer class="signup-footer">
+                <p>Already have an Account? <a class="anchor" href="https://www.google.com/" target="_blank">Login</a></p>
+            </footer>
+        </div>
+        <div class="circle c1"></div>
+        <div class="circle c2"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
